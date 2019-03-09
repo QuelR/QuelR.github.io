@@ -5,9 +5,8 @@
 
 body{
 	margin: 0;
-	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: #ff1493;
+	background-color: #efefef;
 }
 
 a {
@@ -26,7 +25,7 @@ a:hover {
 
 header{
 	background-size: cover;
-	background-color: #e2e2e2;
+	background-color: #9932cc;
 	padding:10px;
 	padding-top: 30px;
 }
@@ -56,7 +55,7 @@ h2{
 	font-weight: 700;
 	list-style-type: none;
 	margin: 0 auto;
-	padding: 0;
+	padding: 10px;
 }
 
 .nav li {
@@ -74,6 +73,7 @@ footer {
   min-height: 30px;
   padding: 20px 0 10px 20px;
   text-align:center;
+  color: #000000;
 }
 
 footer .copyright {
@@ -83,14 +83,11 @@ footer .copyright {
 }
 
 footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	text-align: center;
+	display: inline;
+
 }
 
-footer ul li {
-  display: inline-block;
-}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
