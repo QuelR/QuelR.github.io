@@ -1,21 +1,21 @@
 /* Global Layout Set-up */
-* { 
+{ 
   box-sizing: border-box;
 }
   
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222; /*dark gray*/
-  background: #f7f5f0; /*faint yellow*/
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #222; /*dark gray*/
+	background: #ececec; /*light gray*/
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #0499ff; /*sky blue*/
+  color: fff; /*white*/
 }
 a:hover {
   color: #6633ff; /*purple-blue*/
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #979797; /*dark gray*/
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -33,96 +33,109 @@ a:hover {
 }
 .nav {
   display: flex;
-  justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
-  padding: 0;
+  	padding: 10px 40px;
+	float: right;
 }
-.nav .name {
-  display: none;
-}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: white
 }
 
 header {
   text-align: center;
-  background: url('images/code.jpg') no-repeat top center ;
-  background-size: cover;
-  background-color: #9932cc; /*purple*/
+  background-image: url("./images/code.jpg");
+  background-color: #b870dc;/*light purple*/
   overflow: hidden;
   padding-top: 60px;
-}
-header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 115px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #ff99ff;
+  border: 3px solid #a141d0; /*purple*/
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+
 .tag {
   background-color: #efefef; /*beige*/
-  border: 2px solid #ff99ff; /*lilac*/
+  border: 2px solid #a141d0; /*purple*/
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
-.location {
-  background-color: #222; /*dark gray*/
-  color: #ff1493; /*pink*/
 }
-.card {
+
+.name{
+  background-color: #979797; /*dark gray*/
+  color: #fff; /*white*/	
+}
+
+.location {
+  background-color: #979797; /*dark gray*/
+  color: #fff; /*white*/
+}
+
+.location a:hover {
+	color: #a141d0; /*purple*/
+}
+
+.cardbackground{
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff; /*white*/
-  border: 4px solid #ccc; /*gray*/
-  border-radius: 6px;
-}
-.card:hover {
-  border-color: #ff99ff; /*lilac*/
+  background: #b870dc; /*light purple*/
+  border: 8px solid #7a7a7a; /*dark gray*/
+  border-radius: 10px;
 }
 
-ul.skills {
-  padding: 0;
-  text-align: center;
+.cardskills {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #b870dc; /*light purple*/
+  border: 8px solid #7a7a7a; /*dark gray*/
+  border-radius: 10px;
 }
 
-.skills li {
-  border-radius: 5px;
-  display: inline-block;
-  background: #222; /*black*/
-  border: 2px solid #ff99ff; /*lilac*/
-  color: #ff1493; /*pink*/
-  padding: 5px 10px;
-  margin: 2px;
+.cardskills ul {
+  text-align: justify;
 }
 
-.skills li: {
-  background: #0399ff; /*2nd sky blue*/
+.cardbackground:hover {
+  border-color: #a141d0; /*light purple*/
+  border-width: 10px;
+}
+
+.cardskills:hover {
+  border-color: #a141d0; /*light purple*/
+  border-width: 10px;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0px 10px 20px;
 }
 
 footer .copyright {
@@ -132,9 +145,8 @@ footer .copyright {
 }
 
 footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	text-align: center;
+	display: inline;
 }
 
 footer ul li {
