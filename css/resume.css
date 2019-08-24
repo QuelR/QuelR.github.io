@@ -1,44 +1,39 @@
 
-{ 
+{
   box-sizing: border-box;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	font-family: 'Roboto', sans-serif;
-	color: #222; /*dark gray*/
-	background: #ececec; /*light gray*/
+	color: #fff;
+  background: #000;
 }
 
 a {
   text-decoration: none;
-  color: #0499ff; /*sky blue*/
+  color: #fff;
+
 }
 a:hover {
-  color: #6633ff; /*purple blue*/
-}
-
-.main-image{
-	margin-top: 50px;
-	width: 115px;
-	height: 150px;
-	border: solid 4px #a141d0;
-	border-radius: 50%;
+  color: #1f2fa8;
+  transition: all .5s;
+  transform: scale(2);
 }
 
 header{
-	background-size: cover;
-	background-color: #b870dc; /*light purple*/
-	overflow: hidden;
-	padding-top: 60px;
-	line-height: 1.5;
+  text-align: center;
+  background: url("../img/code.jpg") no-repeat center left #000;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 0;
+  line-height: 1.5;
 }
 
 h1{
-  background-color: #979797; /*dark gray*/
-  border: 2px solid #a141d0; /*purple*/
+  background-color: transparent;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -47,19 +42,40 @@ h1{
 }
 
 h2{
-	padding-left:10px;
+	padding:40px 40px;
+	text-align:left;
+}
+
+.namesection-title{
+  font-size: 300%;
+	text-transform: uppercase;
+	padding: 60px 0 0 40px;
+	text-align: center;
+  margin: 10px auto;
+  color: #FFFFFF;
+  text-shadow: 3px 5px 2px #890fa0;
 }
 
 .section-title{
 	text-transform: uppercase;
+	padding: 60px 0 0 40px;
+	text-align: left;
+  margin: 10px auto;
 }
+
+.section-title ul{
+	padding: 5px 10px 5px 60px;
+	text-align: left;
+}
+
 .resumemain-nav{
   width: 100%;
-  background: #979797; /*dark gray*/
+  background: transparent;
   min-height: 30px;
-  padding: 10px;
+  padding: 0;
   position: fixed;
-  text-align: center;
+  text-align: left;
+  text-shadow: 3px 2px #890fa0;
 }
 
 .resume-nav{
@@ -73,38 +89,38 @@ h2{
 
 .resume-nav li {
   padding: 5px 10px 10px 10px;
+  color: white;
 }
+
 .resume-nav a {
   transition: all .5s;
 }
+
 .resume-nav a:hover {
-  color: white
+  color: #1f2fa8;
+}
+
+.sections li {
+	padding: 0 10px 0 60px;
+	text-align:left;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 10px 20px;
-  text-align:center;
-  color: #000000;
+  text-align: right;
+  display: block;
 }
 
 footer .copyright {
-  top: -8px;
-  margin-right: 20px;
+  text-align: right;
   font-size: .75em;
-}
-
-footer ul {
-	text-align: center;
-	display: inline-block;
-
 }
 
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: flex;
       max-width: 1200px;
