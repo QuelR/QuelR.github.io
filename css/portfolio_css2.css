@@ -1,47 +1,56 @@
 /* Global Layout Set-up */
-{ 
+{
   box-sizing: border-box;
 }
-  
+
 body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	color: #222; /*dark gray*/
-	background: #ececec; /*light gray*/
+	color: #fff;
+  background: #000;
+
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: fff; /*white*/
+  color: #fff;
 }
 a:hover {
-  color: #6633ff; /*purple-blue*/
+  color: #000;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: #979797; /*dark gray*/
+  background: transparent;
   min-height: 30px;
-  padding: 10px;
+  padding: 0px;
   position: fixed;
   text-align: center;
+  text-shadow: 3px 2px #890fa0;
 }
 .nav {
   display: flex;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
-  	padding: 10px 40px;
+  padding: 10px 40px;
 	float: right;
+
 }
 
 .nav li {
   padding: 5px 10px 10px 10px;
+  color: white;
+}
+
+.loca{
+  color: #4e65cb;
+  font-weight: bold;
 }
 
 .nav a {
@@ -49,13 +58,13 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #1f2fa8;
 }
 
 header {
   text-align: center;
-  background-image: url("./images/code.jpg");
-  background-color: #b870dc;/*light purple*/
+  background: url('../img/code.jpg') no-repeat center left #000;
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   line-height: 1.5;
@@ -66,18 +75,17 @@ header .profile-image {
   width: 115px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #a141d0; /*purple*/
+  border: 3px solid #890fa0;
   transition: all .5s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: rotate(360deg) scale(1.2);
 }
 
 .tag {
-  background-color: #efefef; /*beige*/
-  border: 2px solid #a141d0; /*purple*/
-  color: black;
+  background-color: #fff;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -85,17 +93,17 @@ header .profile-image:hover {
 }
 
 .name{
-  background-color: #979797; /*dark gray*/
-  color: #fff; /*white*/	
+  background-color: transparent;
+  color: #fff;
 }
 
 .location {
-  background-color: #979797; /*dark gray*/
-  color: #fff; /*white*/
+  background-color: transparent;
+  color: #fff;
 }
 
 .location a:hover {
-	color: #a141d0; /*purple*/
+	color: dimgray;
 }
 
 .cardbackground{
@@ -103,8 +111,8 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #b870dc; /*light purple*/
-  border: 8px solid #7a7a7a; /*dark gray*/
+  background: #000;
+  border: 8px solid #890fa0;
   border-radius: 10px;
 }
 
@@ -113,8 +121,8 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #b870dc; /*light purple*/
-  border: 8px solid #7a7a7a; /*dark gray*/
+  background: #000;
+  border: 8px solid #890fa0;
   border-radius: 10px;
 }
 
@@ -123,65 +131,52 @@ header .profile-image:hover {
 }
 
 .cardbackground:hover {
-  border-color: #a141d0; /*light purple*/
+  border-color: #1f2fa8;
   border-width: 10px;
 }
 
 .cardskills:hover {
-  border-color: #a141d0; /*light purple*/
+  border-color: #1f2fa8;
   border-width: 10px;
+}
+
+.cardskilltype {
+  color: #4e65cb;
+  font-weight: bold;
+}
+
+.cardskilltype:hover {
+  color: dimgray;
+}
+
+.resu{
+  color: #4e65cb;
+  font-weight: bold;
+}
+
+.resu:hover{
+  color: dimgray;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0px 10px 20px;
+  text-align: right;
+  display: block;
 }
 
 footer .copyright {
-  top: -8px;
-  margin-right: 20px;
+  text-align: right;
   font-size: .75em;
 }
 
-footer ul {
-	text-align: center;
-	display: inline;
-}
-
-footer ul li {
-  display: inline-block;
-}
-
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .5;
-  transition: all .25s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
-a.social:hover {
-  opacity: 1;
-}
 .clearfix {
   clear: both;
 }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: flex;
       max-width: 1200px;
