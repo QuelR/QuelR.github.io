@@ -62,16 +62,15 @@ a:hover {
 }
 
 header {
-  	text-align: center;
-  	background: no-repeat center left #000;
-	background-color: rgb(86, 86, 103);
-	background-image: linear-gradient(30deg, rgb(68, 68, 85) 12%, transparent 12.5%, transparent 87%, rgb(68, 68, 85) 87.5%, rgb(68, 68, 85)), linear-gradient(150deg, rgb(68, 68, 85) 12%, transparent 12.5%, transparent 87%, rgb(68, 68, 85) 87.5%, rgb(68, 68, 85)), linear-gradient(30deg, rgb(68, 68, 85) 12%, transparent 12.5%, transparent 87%, rgb(68, 68, 85) 87.5%, rgb(68, 68, 85)), linear-gradient(150deg, rgb(68, 68, 85) 12%, transparent 12.5%, transparent 87%, rgb(68, 68, 85) 87.5%, rgb(68, 68, 85)), linear-gradient(60deg, rgb(109, 109, 131) 25%, transparent 25.5%, transparent 75%, rgb(109, 109, 131) 75%, rgb(109, 109, 131)), linear-gradient(60deg, rgb(109, 109, 131) 25%, transparent 25.5%, transparent 75%, rgb(109, 109, 131) 75%, rgb(109, 109, 131));
-	background-size: 80px 140px;
-	background-position: 0px 0px, 0px 0px, 40px 70px, 40px 70px, 0px 0px, 40px 70px;
-  	background-size: cover;
-  	overflow: hidden;
-  	padding-top: 60px;
-  	line-height: 1.5;
+    text-align: center;
+    background-color: #E5E5F7;
+    opacity: 0.4;
+    background-image: linear-gradient(30deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(150deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(30deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(150deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(60deg, #444CF777 25%, transparent 25.5%, transparent 75%, #444CF777 75%, #444CF777), linear-gradient(60deg, #444CF777 25%, transparent 25.5%, transparent 75%, #444CF777 75%, #444CF777);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+    overflow: hidden;
+    padding-top: 60px;
+    line-height: 1.5;
 }
 
 header .profile-image {
