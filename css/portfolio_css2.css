@@ -63,11 +63,12 @@ a:hover {
 
 header {
     text-align: center;
-    background-color: #cc6666;
-    opacity: 0.4;
-    background-image: linear-gradient(30deg, #C72124 12%, transparent 12.5%, transparent 87%, #C72124 87.5%, #C72124), linear-gradient(150deg, #C72124 12%, transparent 12.5%, transparent 87%, #C72124 87.5%, #C72124), linear-gradient(30deg, #C72124 12%, transparent 12.5%, transparent 87%, #C72124 87.5%, #C72124), linear-gradient(150deg, #C72124 12%, transparent 12.5%, transparent 87%, #C72124 87.5%, #C72124), linear-gradient(60deg, #C72124 25%, transparent 25.5%, transparent 75%, #C72124 75%, #C72124), linear-gradient(60deg, #C72124 25%, transparent 25.5%, transparent 75%, #C72124 75%, #C72124);
-    background-size: 40px 70px;
-    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+    background-color: #db3435;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(150deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(30deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(150deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(60deg, #c7212477 25%, transparent 25.5%, transparent 75%, #c7212477 75%, #c7212477), linear-gradient(60deg, #c7212477 25%, transparent 25.5%, transparent 75%, #c7212477 75%, #c7212477);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
     overflow: hidden;
     padding-top: 60px;
     line-height: 1.5;
