@@ -4,13 +4,15 @@
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #b87a7a;
-  background: #b87a7a;
-
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #aa857d;
+    opacity: 1;
+    background-image: linear-gradient(30deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(150deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(30deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(150deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(60deg, #d18c8777 25%, transparent 25.5%, transparent 75%, #d18c8777 75%, #d18c8777), linear-gradient(60deg, #d18c8777 25%, transparent 25.5%, transparent 75%, #d18c8777 75%, #d18c8777);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 /* Link Styles */
 
@@ -68,7 +70,6 @@ header {
     background-image:  linear-gradient(30deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(150deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(30deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(150deg, #c72124 12%, transparent 12.5%, transparent 87%, #c72124 87.5%, #c72124), linear-gradient(60deg, #c7212477 25%, transparent 25.5%, transparent 75%, #c7212477 75%, #c7212477), linear-gradient(60deg, #c7212477 25%, transparent 25.5%, transparent 75%, #c7212477 75%, #c7212477);
     background-size: 80px 140px;
     background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-
     overflow: hidden;
     padding-top: 60px;
     line-height: 1.5;
