@@ -1,6 +1,6 @@
 /* Global Layout Set-up */
 {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,40 +8,42 @@ body {
     padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    background-color: #aa857d;
-    opacity: 1;
-    background-image: linear-gradient(30deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(150deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(30deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(150deg, #d18c87 12%, transparent 12.5%, transparent 87%, #d18c87 87.5%, #d18c87), linear-gradient(60deg, #d18c8777 25%, transparent 25.5%, transparent 75%, #d18c8777 75%, #d18c8777), linear-gradient(60deg, #d18c8777 25%, transparent 25.5%, transparent 75%, #d18c8777 75%, #d18c8777);
-    background-size: 80px 140px;
-    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+    background: url('../img/bizcard.jpg') no-repeat center left #000;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
 }
 /* Link Styles */
+            
 
 a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 a:hover {
-  color: #000;
+    color: #000;
 }
 
 /* Section Styles */
 
 .main-nav {
-  width: 100%;
-  background: transparent;
-  min-height: 30px;
-  padding: 0px;
-  position: fixed;
-  text-align: center;
-  text-shadow: 3px 2px #890fa0;
+    width: 100%;
+    background: transparent;
+    min-height: 30px;
+    padding: 0px;
+    position: fixed;
+    text-align: center;
+    text-shadow: 3px 2px #890fa0;
 }
 .nav {
-  display: flex;
-  font-weight: 700;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 10px 40px;
-	float: right;
+    display: flex;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px 40px;
+    float: right;
+
 
 }
 
