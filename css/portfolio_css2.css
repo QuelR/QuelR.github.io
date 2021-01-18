@@ -8,8 +8,7 @@ body {
     padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: #b87a7a;
-    background: #b87a7a;
+    background: #c72124ff;
 }
 /* Link Styles */
 
@@ -63,8 +62,8 @@ a {
 
 header {
     text-align: center;
-    background: url('../img/Bizcard.jpg') no-repeat center left #000;
-    background-size: cover;
+    background: url('../img/background.jpg') repeat #832825;
+    background-size: 700px 225px;
     overflow: hidden;
     padding-top: 60px;
     line-height: 1.5;
