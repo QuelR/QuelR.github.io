@@ -1,4 +1,4 @@
-//console.log($.getJSON("https://api.themoviedb.org/3/discover/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb"));
+//console.log($.getJSON("https://api.themoviedb.org/3/movie/550?api_key=b31d8ff85307c7c22681a7bcfd3cefe3"));
 
 
 $('#term').focus(function(){
