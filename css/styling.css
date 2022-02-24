@@ -10720,12 +10720,12 @@ section.resume-section {
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-body {
+/*body {
     background: url(https://static.pexels.com/photos/1043/red-building-industry-bricks-large.jpg) no-repeat;
     background-size: cover;
     color: #FFF;
     font-family: 'Lato';
-}
+}*/
 
 .img-responsive {
     width: 90vw;
