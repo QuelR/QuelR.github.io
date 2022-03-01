@@ -10708,12 +10708,6 @@ section.resume-section {
 
 /*Movie Poster section*/
 
-/*body {
-    background: url(https://static.pexels.com/photos/1043/red-building-industry-bricks-large.jpg) no-repeat;
-    background-size: cover;
-}
-
-}*/
 
 .alert {
     margin-top: 10px;
@@ -10776,10 +10770,10 @@ input[type=text] {
     margin-top: 20px
 }
 
-    #poster p {
-        font-size: 2em;
-        color: black;
-    }
+#poster p {
+    font-size: 2em;
+    color: black;
+}
 
 input:focus {
     outline: none;
