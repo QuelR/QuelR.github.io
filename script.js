@@ -8,11 +8,11 @@ $('#term').focus(function () {
     }
 });
 
-var getPoster = function () {
+var getPoster = function (){
 
     var film = $('#term').val();
 
-    if (film == '') {
+    if (film == ''){
 
         $('#poster').html('<div class="alert"><strong>Oops!</strong> Try adding something into the search field.</div>');
 
