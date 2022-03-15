@@ -10708,6 +10708,11 @@ section.resume-section {
 
 /*Movie Poster section*/
 
+.img-responsive {
+    width: 90vw;
+    max-width: 500px;
+}
+
 .alert {
     margin-top: 10px;
 }
