@@ -1,4 +1,4 @@
-//console.log($.getJSON("https://api.themoviedb.org/3/discover/movie/api_key=b31d8ff85307c7c22681a7bcfd3cefe3"));
+//console.log($.getJSON("https://api.themoviedb.org/3/discover/movie/76341?api_key=b31d8ff85307c7c22681a7bcfd3cefe3"));
 
 
 $('#term').focus(function(){
@@ -20,7 +20,7 @@ var getPoster = function (){
 
         $('#poster').html('<div class="alert"><strong>Loading...</strong></div>');
 
-        $.getJSON("https://api.themoviedb.org/3/search/movie/api_key=b31d8ff85307c7c22681a7bcfd3cefe3&query=" + film + "&callback=?", function(json) {
+        $.getJSON("https://api.themoviedb.org/3/search/movie/76341?api_key=b31d8ff85307c7c22681a7bcfd3cefe3&query=" + film + "&callback=?", function(json) {
             if (json != "Nothing found.") {
 console.log(json);
                 $('#poster').html('<p>Your search found: <strong>' + json.results[0].title + '</strong></p><img src=\"http://image.tmdb.org/t/p/w500/' + json.results[0].poster_path + '\" class=\"img-responsive\" >');
