@@ -38,9 +38,9 @@ console.log(json);
     return false;
 }
 
-$('#search').click(getPoster);
-$('#term').keyup(function (event) {
-    if (event.keyCode == 13) {
-        getPoster();
-    }
-});
+    $('#search').click(getPoster);
+    $('#term').keyup(function (event){
+        if (event.keyCode == 13){
+            getPoster();
+        }
+    });
