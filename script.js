@@ -8,7 +8,7 @@ $('#term').focus(function () {
     }
 });
 
-var getPoster = function (){
+var getPoster = function () {
 
     var film = $('#term').val();
 
