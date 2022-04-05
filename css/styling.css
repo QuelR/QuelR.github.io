@@ -10799,6 +10799,7 @@ input:focus {
     background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 20px;
     box-shadow: 0px 0px 10px #000;
+    float: left;
 }
 
 .calendar-bar {
