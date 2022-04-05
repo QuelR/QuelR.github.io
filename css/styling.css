@@ -10792,6 +10792,22 @@ input:focus {
 }
 
 /*Calendar section*/
+<style >
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    user-select: none;
+}
+
 .softcard {
     width: 316px;
     height: fit-content;
